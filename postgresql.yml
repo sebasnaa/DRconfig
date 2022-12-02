@@ -1,6 +1,6 @@
 ---
 - name: postgresql demo
-  hosts: all
+  hosts: app1
   become: true
   vars:
     postgresql_version: "12"
